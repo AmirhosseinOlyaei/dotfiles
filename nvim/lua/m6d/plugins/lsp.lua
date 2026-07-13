@@ -17,6 +17,8 @@ return {
 	config = function()
 		require("conform").setup({
 			formatters_by_ft = {
+				c = { "clang_format" },
+				cpp = { "clang_format" },
 				lua = { "stylua" },
 				go = { "goimports", "gofmt" },
 				javascript = { "prettierd", "prettier", stop_after_first = true },

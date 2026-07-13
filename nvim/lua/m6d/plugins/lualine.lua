@@ -34,7 +34,7 @@ return {
 					},
 					{
 						"diff",
-						symbols = { added = " ", modified = "柳", removed = " " },
+						symbols = { added = " ", modified = "+", removed = " " },
 						diff_color = {
 							added = { fg = "#98be65" },
 							modified = { fg = "#ff8800" },
